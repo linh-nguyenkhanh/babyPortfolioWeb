@@ -14,7 +14,7 @@ const {title = "Astro Crash course"} = Astro.props as Props
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{Astro.props.title}</title>
   </head>
-  <body>
+  <body class="bg-pink-50 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-300 break-words leading-6 transition-colors duration-500">
     <Header/>
 	<slot/>
   </body>
